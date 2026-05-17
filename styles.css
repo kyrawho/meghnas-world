@@ -1216,3 +1216,55 @@ img {
     font-size: 0.62rem;
   }
 }
+
+/* no credits-specific styling */
+
+.credits-app {
+  min-height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem 1.35rem;
+}
+
+.credits-card {
+  width: min(100%, 34rem);
+  background: #fffaf0;
+  border: 0.22rem solid #48616a;
+  border-radius: 2rem;
+  padding: 2rem 1.6rem;
+  text-align: center;
+  box-shadow: 0.45rem 0.45rem 0 #cfe2c7;
+}
+
+.credits-icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 0.75rem;
+  background: #ffe4df;
+  border: 0.18rem solid #48616a;
+  border-radius: 999px;
+  font-size: 2rem;
+}
+
+.credits-card h3 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 6vw, 3rem);
+  line-height: 1;
+  color: #48616a;
+}
+
+.credits-card p {
+  margin: 0 auto;
+  max-width: 26rem;
+  font-size: clamp(1.05rem, 3.5vw, 1.45rem);
+  line-height: 1.45;
+  color: #48616a;
+}
+
+.credits-signoff {
+  margin-top: 1rem !important;
+  font-weight: 800;
+}
