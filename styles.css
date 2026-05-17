@@ -1268,3 +1268,109 @@ img {
   margin-top: 1rem !important;
   font-weight: 800;
 }
+
+/* no existing emoji passcode CSS */
+
+.emoji-passcode {
+  width: min(260px, 82%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.passcode-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.passcode-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  border: 2px solid rgba(70, 57, 46, 0.38);
+  background: rgba(255, 250, 240, 0.5);
+  box-shadow: 0 2px 0 rgba(70, 57, 46, 0.08);
+  transition:
+    background 160ms ease,
+    transform 160ms ease,
+    border-color 160ms ease;
+}
+
+.passcode-dot.filled {
+  background: #ef8f83;
+  border-color: #ef8f83;
+  transform: scale(1.08);
+}
+
+.emoji-keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 11px;
+  width: 100%;
+}
+
+.emoji-key {
+  appearance: none;
+  border: 2px solid rgba(70, 57, 46, 0.14);
+  border-radius: 20px;
+  min-height: 58px;
+  background: rgba(255, 250, 240, 0.78);
+  box-shadow:
+    0 6px 0 rgba(70, 57, 46, 0.1),
+    0 12px 24px rgba(70, 57, 46, 0.08);
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    transform 140ms ease,
+    box-shadow 140ms ease,
+    background 140ms ease;
+}
+
+.emoji-key:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 240, 168, 0.9);
+  box-shadow:
+    0 8px 0 rgba(70, 57, 46, 0.1),
+    0 16px 28px rgba(70, 57, 46, 0.1);
+}
+
+.emoji-key:active {
+  transform: translateY(3px);
+  box-shadow:
+    0 3px 0 rgba(70, 57, 46, 0.1),
+    0 8px 18px rgba(70, 57, 46, 0.08);
+}
+
+.passcode-shake {
+  animation: passcode-shake 420ms ease;
+}
+
+@keyframes passcode-shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-9px);
+  }
+
+  40% {
+    transform: translateX(9px);
+  }
+
+  60% {
+    transform: translateX(-7px);
+  }
+
+  80% {
+    transform: translateX(7px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
