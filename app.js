@@ -4,6 +4,7 @@ const appButtons = [
   { id: "notes", label: "notes", color: "#fff0a8", icon: "✏️" },
   { id: "blahaj", label: "blåhaj", color: "#b8ddf0", icon: "🦈" },
   { id: "rayeToday", label: "raye today", color: "#ffe4df", icon: "💋" }
+  { id: "credits", label: "credits", color: "#ffe4df", icon: "❣️" }
 ];
 
 const messages = [
