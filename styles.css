@@ -162,7 +162,7 @@ img {
   width: 152px;
   height: 152px;
   flex: 0 0 auto;
-  margin: 0 0 34px;
+  margin: 26px 0 24px;
   z-index: 2;
 }
 
@@ -285,7 +285,7 @@ img {
 .lock-title {
   position: relative;
   z-index: 2;
-  margin: 34px 0 0;
+  margin: 16px 0 0;
   color: var(--ink);
   font-size: clamp(1.85rem, 7vw, 2.55rem);
   font-weight: 900;
