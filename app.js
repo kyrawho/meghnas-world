@@ -5,9 +5,9 @@ const appButtons = [
   { id: "messages", label: "messages", color: "#ffd4b8", icon: "💬" },
   { id: "photos", label: "photos", color: "#cfe2c7", icon: "📷" },
   { id: "notes", label: "notes", color: "#fff0a8", icon: "✏️" },
-  { id: "blahaj", label: "blåhaj", color: "#b8ddf0", icon: "🦈" },
+  { id: "blahaj", label: "blåhaj", color: "#7EC0E6", icon: "🦈" },
   { id: "rayeToday", label: "raye today", color: "#ffe4df", icon: "💋" },
-  { id: "credits", label: "credits", color: "#ffe4df", icon: "❣️" }
+  { id: "credits", label: "credits", color: "#E4DFF2", icon: "👯" }
 ];
 
 const messages = [
@@ -523,7 +523,7 @@ const rayeMoodData = {
         year: "2026",
         spotifyUrl: spotifySearchUrl("RAYE WINTER WOMAN")
       },
-      {
+      {const apps
         lyric: "Once you see my black mascara",
         song: "Black Mascara.",
         album: "My 21st Century Blues",
@@ -559,13 +559,18 @@ const apps = {
   },
   blahaj: {
     title: "blåhaj",
-    accent: "#b8ddf0",
+    accent: "#7EC0E6",
     render: renderBlahaj
   },
   rayeToday: {
     title: "raye today",
     accent: "#ffe4df",
     render: renderRayeToday
+  },
+  credits: {
+    title: "credits",
+    accent: "#E4DFF2",
+    render: renderCredits
   }
 };
 
@@ -948,6 +953,25 @@ function renderBlahaj() {
       <div class="plush-grid">
         ${plushFiles.map(renderPlushCard).join("")}
       </div>
+    </div>
+  `;
+}
+
+function renderCredits() {
+  appContent.innerHTML = `
+    <div class="notes-app">
+      <div class="notes-heading">
+        <p>credits</p>
+      </div>
+
+      <article class="note-detail-card" style="background: #fffaf0">
+        <h3><span class="note-emoji" aria-hidden="true">❣️</span>thank you</h3>
+        <div class="note-detail-body">
+          <p class="note-line">
+            Thank you to Ana, Cassie, Emma, Ishaani, Jake, Vaish, and Vick for all of your thoughtful contributions! We love you, Meghna!
+          </p>
+        </div>
+      </article>
     </div>
   `;
 }
