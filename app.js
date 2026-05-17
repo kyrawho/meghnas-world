@@ -31,6 +31,7 @@ const messages = [
     friendName: "vaish",
     status: "unread",
     preview: "message spot saved",
+    imageSrc: "messages/vaishmessage.png",
     paperColor: "#d6eef6",
     stickerColor: "#ef8f83",
     detailNote: "space saved for vaish's birthday note."
