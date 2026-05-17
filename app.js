@@ -194,6 +194,23 @@ const photoFiles = [
   "spooky spooky.jpg",
   "spooky with vaish.jpg",
   "sunny ish.jpg"
+  "borth.jpeg",
+  "crunchy.jpeg",
+  "flower power.jpeg",
+  "ok sporty.jpeg",
+  "ana my fav indian.jpeg",
+  "omg orgo.jpeg",
+  "girl scout ouch",
+  "strawbz.jpeg",
+  "wed adams.jpeg",
+  "peace.jpeg",
+  "fluffy.jpeg",
+  "kind eyes jack.jpeg",
+  "weddinggg.jpeg",
+  "its giving arthur.jpeg",
+  "what a long white hair.jpeg",
+  "sheldon 4ever.jpeg",
+  "bandana besties.jpeg"
 ];
 
 const photos = photoFiles.map((fileName, index) => {
