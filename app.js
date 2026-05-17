@@ -202,7 +202,7 @@ const photoFiles = [
   "ok sporty.jpeg",
   "ana my fav indian.jpeg",
   "omg orgo.jpeg",
-  "girl scout ouch",
+  "girl scout ouch.jpeg",
   "strawbz.jpeg",
   "wed adams.jpeg",
   "peace.jpeg",
