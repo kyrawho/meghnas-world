@@ -12,33 +12,24 @@ const appButtons = [
 
 const messages = [
   {
-    id: "kyra",
-    friendName: "kyra",
-    status: "unread",
-    preview: "a real little note is tucked in here",
-    imageSrc: "messages/kyra-message.png",
-    imageAlt: "kyra birthday note",
-    paperColor: "#fffaf0",
-    stickerColor: "#ffd4b8"
-  },
-  {
     id: "emma",
     friendName: "emma",
     status: "unread",
     preview: "message spot saved",
     paperColor: "#fff0a8",
     stickerColor: "#cfe2c7",
-    detailNote: "space saved for emma's birthday note."
+    detailNote: "love, emma"
   },
   {
     id: "vaish",
     friendName: "vaish",
     status: "unread",
-    preview: "message spot saved",
+    preview: "Happy birthday Megnart!!!! <3",
     imageSrc: "messages/vaishmessage.JPEG",
+    imageAlt: "vaish birthday note",
     paperColor: "#d6eef6",
     stickerColor: "#ef8f83",
-    detailNote: "space saved for vaish's birthday note."
+    detailNote: "love, vaish"
   },
   {
     id: "jake",
@@ -47,7 +38,7 @@ const messages = [
     preview: "message spot saved",
     paperColor: "#f7e7d4",
     stickerColor: "#7fb8b1",
-    detailNote: "space saved for jake's birthday note."
+    detailNote: "love, jake"
   },
   {
     id: "ana",
@@ -56,7 +47,7 @@ const messages = [
     preview: "message spot saved",
     paperColor: "#eef5df",
     stickerColor: "#b8ddf0",
-    detailNote: "space saved for ana's birthday note."
+    detailNote: "love, ana"
   },
   {
     id: "vick",
@@ -65,7 +56,7 @@ const messages = [
     preview: "message spot saved",
     paperColor: "#ffe4df",
     stickerColor: "#fff0a8",
-    detailNote: "space saved for vick's birthday note."
+    detailNote: "love, vick"
   },
   {
     id: "cassie",
@@ -74,7 +65,7 @@ const messages = [
     preview: "message spot saved",
     paperColor: "#fffaf0",
     stickerColor: "#ef8f83",
-    detailNote: "space saved for cassie's birthday note."
+    detailNote: "love, cassie"
   },
   {
     id: "ishaani",
@@ -83,7 +74,18 @@ const messages = [
     preview: "message spot saved",
     paperColor: "#eef5df",
     stickerColor: "#ffd4b8",
-    detailNote: "space saved for ishaani's birthday note."
+    detailNote: "love, ishaani"
+  },
+  {
+    id: "kyra",
+    friendName: "kyra",
+    status: "unread",
+    preview: "first text <3",
+    imageSrc: "messages/kyra-message.png",
+    imageAlt: "kyra birthday note",
+    paperColor: "#fffaf0",
+    stickerColor: "#ffd4b8",
+    detailNote: "love, kyra"
   }
 ];
 
@@ -979,18 +981,19 @@ function renderBlahaj() {
 
 function renderCredits() {
   appContent.innerHTML = `
-    <div class="notes-app">
-      <div class="notes-heading">
-        <p>credits</p>
-      </div>
+    <div class="credits-app">
+      <article class="credits-card">
+        <div class="credits-icon" aria-hidden="true">❣️</div>
 
-      <article class="note-detail-card" style="background: #fffaf0">
-        <h3><span class="note-emoji" aria-hidden="true">❣️</span>thank you</h3>
-        <div class="note-detail-body">
-          <p class="note-line">
-            Thank you to Ana, Cassie, Emma, Ishaani, Jake, Vaish, and Vick for all of your thoughtful contributions! We love you, Meghna!
-          </p>
-        </div>
+        <h3>thank you</h3>
+
+        <p>
+          Thank you to Ana, Cassie, Emma, Ishaani, Jake, Vaish, and Vick for all of your thoughtful contributions!
+        </p>
+
+        <p class="credits-signoff">
+          We love you, Meghna!
+        </p>
       </article>
     </div>
   `;
