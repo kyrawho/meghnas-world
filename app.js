@@ -1,5 +1,5 @@
 // Update this whenever the site content changes.
-const lastUpdatedText = "05/17/2026 @ 2:51pm";
+const lastUpdatedText = "05/17/2026 @ 2:55pm";
 
 const appButtons = [
   { id: "messages", label: "messages", color: "#ffd4b8", icon: "💬" },
@@ -15,7 +15,7 @@ const messages = [
     id: "emma",
     friendName: "emma",
     status: "unread",
-    preview: "message spot saved",
+    preview: "KYRA TO UPDATE THIS!!!",
     paperColor: "#fff0a8",
     stickerColor: "#cfe2c7",
     detailNote: "love, emma"
@@ -35,7 +35,7 @@ const messages = [
     id: "jake",
     friendName: "jake",
     status: "unread",
-    preview: "message spot saved",
+    preview: "KYRA TO UPDATE THIS!!!",
     paperColor: "#f7e7d4",
     stickerColor: "#7fb8b1",
     detailNote: "love, jake"
@@ -44,7 +44,7 @@ const messages = [
     id: "ana",
     friendName: "ana",
     status: "unread",
-    preview: "message spot saved",
+    preview: "KYRA TO UPDATE THIS!!!",
     paperColor: "#eef5df",
     stickerColor: "#b8ddf0",
     detailNote: "love, ana"
@@ -53,7 +53,7 @@ const messages = [
     id: "vick",
     friendName: "vick",
     status: "unread",
-    preview: "message spot saved",
+    preview: "KYRA TO UPDATE THIS!!!",
     paperColor: "#ffe4df",
     stickerColor: "#fff0a8",
     detailNote: "love, vick"
@@ -64,14 +64,14 @@ const messages = [
     status: "unread",
     preview: "message spot saved",
     paperColor: "#fffaf0",
-    stickerColor: "#ef8f83",
+    stickerColor: "#E4DFF2",
     detailNote: "love, cassie"
   },
   {
     id: "ishaani",
     friendName: "ishaani",
     status: "unread",
-    preview: "message spot saved",
+    preview: "KYRA TO UPDATE THIS!!!",
     paperColor: "#eef5df",
     stickerColor: "#ffd4b8",
     detailNote: "love, ishaani"
@@ -84,7 +84,7 @@ const messages = [
     imageSrc: "messages/kyra-message.png",
     imageAlt: "kyra birthday note",
     paperColor: "#fffaf0",
-    stickerColor: "#ffd4b8",
+    stickerColor: "#FEE5FF",
     detailNote: "love, kyra"
   }
 ];
