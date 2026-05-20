@@ -1452,3 +1452,11 @@ img {
     transform: translateX(0);
   }
 }
+
+.credits-break {
+  height: 0.75rem;
+}
+
+.credits-break-large {
+  height: 1.2rem;
+}
