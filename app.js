@@ -15,7 +15,7 @@ const messages = [
     id: "emma",
     friendName: "emma",
     status: "unread",
-    preview: "KYRA TO UPDATE THIS!!!",
+    preview: "HAPPY BIRTHDAY MEGHNA!!!",
     paperColor: "#fff0a8",
     stickerColor: "#cfe2c7",
     detailNote: "love, emma"
@@ -35,7 +35,8 @@ const messages = [
     id: "jake",
     friendName: "jake",
     status: "unread",
-    preview: "KYRA TO UPDATE THIS!!!",
+    preview: "Meghna,",
+    imageSrc: "messages/jake message.jpeg",
     paperColor: "#f7e7d4",
     stickerColor: "#7fb8b1",
     detailNote: "love, jake"
@@ -45,6 +46,7 @@ const messages = [
     friendName: "ana",
     status: "unread",
     preview: "KYRA TO UPDATE THIS!!!",
+    imageSrc: "messages/ana message.jpeg",
     paperColor: "#eef5df",
     stickerColor: "#b8ddf0",
     detailNote: "love, ana"
@@ -53,7 +55,8 @@ const messages = [
     id: "vick",
     friendName: "vick",
     status: "unread",
-    preview: "KYRA TO UPDATE THIS!!!",
+    preview: "Happy Birthday Meghna! I am so...",
+    imageSrc: "messages/vick message.jpeg",
     paperColor: "#ffe4df",
     stickerColor: "#fff0a8",
     detailNote: "love, vick"
@@ -62,7 +65,8 @@ const messages = [
     id: "cassie",
     friendName: "cassie",
     status: "unread",
-    preview: "message spot saved",
+    preview: "Happy birthday Meghna!!!!!!!!",
+    imageSrc: "messages/cassie message.jpeg",
     paperColor: "#fffaf0",
     stickerColor: "#E4DFF2",
     detailNote: "love, cassie"
@@ -72,6 +76,7 @@ const messages = [
     friendName: "ishaani",
     status: "unread",
     preview: "KYRA TO UPDATE THIS!!!",
+    imageSrc: "messages/ishaani message.jpeg",
     paperColor: "#eef5df",
     stickerColor: "#ffd4b8",
     detailNote: "love, ishaani"
@@ -80,8 +85,8 @@ const messages = [
     id: "kyra",
     friendName: "kyra",
     status: "unread",
-    preview: "first text <3",
-    imageSrc: "messages/kyra-message.png",
+    preview: "Dearest Meghna,",
+    imageSrc: "messages/kyra message.jpeg",
     imageAlt: "kyra birthday note",
     paperColor: "#fffaf0",
     stickerColor: "#FEE5FF",
