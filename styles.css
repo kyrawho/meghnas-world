@@ -1314,10 +1314,11 @@ img {
   font-size: 1.2rem;
 }
 
-.credits-card h3 {
-  margin: 0 0 1rem;
-  font-size: clamp(1.2rem, 3.6vw, 1.8rem);
-  line-height: 1;
+.credits-card p {
+  margin: 0.75rem auto 0;
+  max-width: 26rem;
+  font-size: clamp(0.63rem, 2.1vw, 0.87rem);
+  line-height: 1.45;
   color: #48616a;
 }
 
