@@ -420,9 +420,11 @@ img {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px 16px;
-  margin-top: 18px;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  column-gap: 56px;
+  row-gap: 18px;
+  margin-top: 6px;
 }
 
 .app-icon-button {
