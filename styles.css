@@ -422,7 +422,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
-  column-gap: 56px;
+  column-gap: 100px;
   row-gap: 18px;
   margin-top: 6px;
 }
