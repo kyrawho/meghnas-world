@@ -16,6 +16,7 @@ const messages = [
     friendName: "emma",
     status: "unread",
     preview: "HAPPY BIRTHDAY MEGHNA!!!",
+    imageSrc: "messages/emma message.JPEG",
     paperColor: "#fff0a8",
     stickerColor: "#cfe2c7",
     detailNote: "love, emma"
@@ -236,7 +237,7 @@ const plushFiles = [
   "djungelskog-orangutan.jpg",
   "SKOGSDUVA.jpg",
   "grejsimojs.jpg",
-  "sandlöepare.jpg"
+  "sandloepare.jpg"
 ];
 
 const rayeMoodData = {
