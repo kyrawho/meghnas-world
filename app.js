@@ -1,5 +1,5 @@
 // Update this whenever the site content changes.
-const lastUpdatedText = "05/20/2026 @ 11:47pm EDT";
+const lastUpdatedText = "05/20/2026 @ 11:51pm EDT";
 
 const appButtons = [
   { id: "messages", label: "messages", color: "#ffd4b8", icon: "💬" },
@@ -100,7 +100,7 @@ const notes = [
     id: "note-01",
     emoji: "🩺",
     title: "The Pitt Hogwarts houses",
-    preview: "a very serious sorting ceremony for the ER",
+    preview: "a special sorting ceremony for pittsburgh's craziest ER",
     color: "#fffaf0",
     lines: [
       {
@@ -121,7 +121,7 @@ const notes = [
     id: "note-02",
     emoji: "🏛️",
     title: "Top 10 museums in Boston",
-    preview: "the museum list, ranked for an actually good day",
+    preview: "museum list for a new bostonian!",
     color: "#eef5df",
     lines: [
       placeLine("1. Museum of Fine Arts, Boston", "Museum of Fine Arts Boston"),
@@ -139,8 +139,8 @@ const notes = [
   {
     id: "note-03",
     emoji: "🍛",
-    title: "27 Indian restaurants in Boston",
-    preview: "a Boston-area hit list for future cravings",
+    title: "indian foodz",
+    preview: "yummy yummy in meg tumm tummy",
     color: "#fff0a8",
     lines: [
       placeLine("1. Shanti", "Shanti Indian restaurant Boston"),
